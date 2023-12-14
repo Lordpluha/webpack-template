@@ -128,3 +128,9 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+src/assets/certs/*.pem
+src/assets/certs/*.crt
+src/assets/certs/*.key
+src/assets/certs/*.pfx
+src/assets/certs/*.p12

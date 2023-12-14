@@ -1,0 +1,61 @@
+{
+  "name": "webpack-2023",
+  "version": "1.0.0",
+  "description": "webpack front-end template",
+  "private": true,
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --config-name prod",
+    "dev": "cross-env NODE_ENV=development webpack --config-name dev",
+    "devServer": "cross-env NODE_ENV=development webpack-dev-server --config-name dev"
+  },
+  "repository": "https://github.com/Lordpluha/webpack-2023.git",
+  "author": "Vladislav <109725756+Lordpluha@users.noreply.github.com>",
+  "license": "MIT",
+  "keywords": [
+    "webpack",
+    "webpack 5",
+    "javascript",
+    "js",
+    "eslint",
+    "react",
+    "typescript",
+    "babel",
+    "scss",
+    "css",
+    "html",
+    "web",
+    "node.js",
+    "dev-server"
+  ],
+  "browserslist": "> 0.25%, not dead",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.11",
+    "@babel/eslint-parser": "^7.22.11",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.22.10",
+    "@babel/preset-react": "^7.22.5",
+    "@babel/preset-typescript": "^7.22.11",
+    "babel-loader": "^9.1.3",
+    "copy-webpack-plugin": "^11.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.8.1",
+    "css-minimizer-webpack-plugin": "^5.0.1",
+    "eslint": "^8.48.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-webpack-plugin": "^4.0.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "sass": "^1.66.1",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "terser-webpack-plugin": "^5.3.9",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
